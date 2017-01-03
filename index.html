@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Local Weather</title>
+<title>Weather App</title>
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
 
-<h1>My Weather app</h1>
+<h1>Local Weather</h1>
   <div class = "search">
-  <i class="fa fa-search" aria-hidden="true"></i>
-  <input type="text" name="search" placeholder="Location">
+   <i class="fa fa-search" aria-hidden="true"></i>
+   <input type="text" name="search" placeholder="Location">
 </div>
-
+ <div id = "rt">
+    <span class = "deg"><p id ="p1">&#8451;</p><p id = "p2">&#8457;</p></span> 
+  </div>
+  <div id = "st">
+   <label class="switch">
+    <input type="checkbox">
+    <div class="slider round"></div>
+   </label>
+  </div>
 </body>
 </html> 
