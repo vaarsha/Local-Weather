@@ -5,6 +5,8 @@ h1 {
        	position: relative;
 	color: #aaa;
 	font-size: 16px;
+	margin-left: 400px;
+	margin-top: 50px;
 }
 .search input {
 	width: 250px;
@@ -20,7 +22,7 @@ h1 {
 	left: 10px;
 }
 input[type=text]:focus {
-	width: 25%;
+	width: 30%;
 }
 #rt {
   float:right;
