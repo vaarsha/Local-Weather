@@ -75,6 +75,20 @@ p {
   -webkit-transition: .3s;
   transition: .3s;
 }
+.second {
+  margin-top: 30px;
+}
+#ic {
+  padding-left: 450px;
+  padding-right:40px;
+}
+.tmp {
+  float:right;
+  margin-top:20px;
+  margin-right:500px;
+  padding: 50px;
+  border: 3px solid #4a3f3f;
+}
 
 input:checked + .slider {
   background-color: #2196F3;
