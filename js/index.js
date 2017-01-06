@@ -19,3 +19,14 @@ $(document).ready(function() {
     $("#loc").html("Geolocation is not supported by this browser.");
   }
 });
+function handle(e) {
+  if (e.keyCode === 13) {
+    e.preventDefault();
+    //search by value
+    var res = document.getElementById('plc').value;
+    $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=" + res + "&units=metric&APPID=c213f9ca1b6333f1b214582c52904e92", function(val) {
+      tmpC = Math.floor(val.main.temp);
+      $("#tmp").html(tmpC + "&#8451");
+    });
+  }
+}
