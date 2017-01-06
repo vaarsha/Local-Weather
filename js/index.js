@@ -6,7 +6,7 @@ $(document).ready(function() {
       latitude = position.coords.latitude;
       longitude = position.coords.longitude;
       $("#loc").html("latitude: " + latitude + "<br>longitude: " + longitude);
-      $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&units=metric&APPID=", function(result) {
+      $.getJSON("https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&units=metric&APPID=", function(result) {
         //update parameters
         console.log("hello");
         console.log("rs :", result);
