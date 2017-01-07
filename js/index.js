@@ -1,5 +1,14 @@
 //to get users position
 var latitude, longitude;
+//function for celsius and fahrenheit conversion
+function change(tp) {
+  var tmpF = Math.floor((tp * 1.8) + 32);
+  if ($('input[type=checkbox]').prop('checked') ){
+    $("#tmp").html(tmpF +"&#8457");
+  } else {
+    $("#tmp").html(tp+"&#8451");
+  }
+}
 $(document).ready(function() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
