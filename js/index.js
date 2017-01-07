@@ -24,6 +24,7 @@ function handle(e) {
     e.preventDefault();
     //search by value
     var res = document.getElementById('plc').value;
+    $('input[type=checkbox]').prop('checked', false);
     $.getJSON("https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=" + res + "&units=metric&APPID=c213f9ca1b6333f1b214582c52904e92", function(val) {
       tmpC = Math.floor(val.main.temp);
       $("#tmp").html(tmpC + "&#8451");
