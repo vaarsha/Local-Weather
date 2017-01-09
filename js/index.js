@@ -9,6 +9,22 @@ function change(tp) {
     $("#tmp").html(tp+"&#8451");
   }
 }
+function change_icon (desc) {
+  switch(desc) {
+    case 'Drizzle':addi(desc);
+      break;
+    case  'Clouds': addi(desc);
+      break;
+    case 'Rain':addi(desc);
+      break;
+    case 'Snow':addi(desc);
+      break;
+    case 'Clear':addi(desc);
+      break;
+    case 'Thunderstorm':addi(desc);
+      break; default:$('div.Clouds').removeClass('hide');
+             }
+}
 $(document).ready(function() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
