@@ -52,8 +52,8 @@ input[type=text]:focus {
 }
 #st {
 	float:right;
-	margin-right: 480px;
-	margin-top: -33px;
+	margin-right: 380px;
+	margin-top: -25px;
 }
 .switch {
 	position: relative;
