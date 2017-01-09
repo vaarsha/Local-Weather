@@ -117,7 +117,7 @@ input:checked + .slider:before {
 	transform: translateX(46px);
 }
 .slider.round {
-  border-radius: 34px;
+	border-radius: 34px;
 }
 
 .slider.round:before {
