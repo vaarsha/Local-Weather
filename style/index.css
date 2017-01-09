@@ -81,7 +81,7 @@ input[type=text]:focus {
 	padding-left: 450px;
 	padding-right:40px;
 }
-.tmp {
+#tmp {
   float:right;
   margin-top:20px;
   margin-right:500px;
