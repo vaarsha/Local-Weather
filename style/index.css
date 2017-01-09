@@ -88,32 +88,33 @@ input[type=text]:focus {
 	transition: .3s;
 }
 .second {
-	margin-top: 30px;
+	margin-top: -30px;
 }
 #ic {
-	padding-left: 450px;
-	padding-right:40px;
+	padding-left: 195px;
+	padding-right: 30px;
 }
 #tmp {
-  float:right;
-  margin-top:20px;
-  margin-right:500px;
-  padding: 50px;
-  
+	float:right;
+	margin-top:20px;
+	padding: 68px 168px 20px 0px;
+	color:  black;
+	font-size:30px;
+	font-weight: 400;
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+	background-color: #2196F3;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+	box-shadow: 0 0 1px #2196F3;
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(46px);
-  -ms-transform: translateX(46px);
-  transform: translateX(46px);
+	-webkit-transform: translateX(46px);
+	-ms-transform: translateX(46px);
+	transform: translateX(46px);
 }
 .slider.round {
   border-radius: 34px;
